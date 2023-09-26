@@ -1,6 +1,6 @@
 # SCREWS: A Modular Framework for Reasoning with Revisions
 
-**SCREWS** is a modular reasoning-with-revisions framework to answer reasoning questions with LLMs. More details in the [paper](https://arxiv.org/abs/2309.13075).
+**SCREWS** is a modular reasoning-with-revisions framework to answer reasoning questions with LLMs. More details in the [paper]().
 
 ![SCREWS](./Images/Screws.png)
 
@@ -19,14 +19,14 @@ pip install openai
 
 ### Sampling
 
-* Once the `sampling` is done, run the `sampling` code as:
+* Start with the `sampling` module by running:
 
 ```sh
 # CoT 
-python re-sample.py --sampling_type cot --openai_key <OPENAI KEY> --data_path ./data/test_gsm8k.jsonl --result_path ./results/cot_sample.jsonl --prompt_path ./prompts/cot_sample.txt
+python sample.py --sampling_type cot --openai_key <OPENAI KEY> --data_path ./data/test_gsm8k.jsonl --result_path ./results/cot_sample.jsonl --prompt_path ./prompts/cot_sample.txt
 
 #Subques
-python re-sample.py --sampling_type subques --openai_key <OPENAI KEY> --data_path ./data/test_gsm8k_socratic.jsonl --result_path ./results/subques_sample.jsonl --prompt_path ./prompts/subques_sample.txt
+python sample.py --sampling_type subques --openai_key <OPENAI KEY> --data_path ./data/test_gsm8k_socratic.jsonl --result_path ./results/subques_sample.jsonl --prompt_path ./prompts/subques_sample.txt
 ```
 
 ### Conditional Resampling
