@@ -1,0 +1,36 @@
+I am a highly intelligent question answering bot.  I will answer the last question 'Q' providing equation in <<>> format keeping the Problem and previous Q and A into account.
+Problem: James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?
+Q: How many pages does he write each week?
+A: He writes each friend 3*2=<<3*2=6>>6 pages a week. The answer is 6
+Q: How many pages does he write every week?
+A: So he writes 6*2=<<6*2=12>>12 pages every week. The answer is 12
+Q: How many pages does he write a year?
+A: That means he writes 12*52=<<12*52=624>>624 pages a year. The answer is 624
+
+Problem: There are 5 houses on a street, and each of the first four houses has 3 gnomes in the garden. If there are a total of 20 gnomes on the street, how many gnomes does the fifth house have? 
+Q: How many gnomes are in the first four houses?
+A: In the first four houses, there are a total of 4 houses * 3 gnomes = <<4*3=12>>12 gnomes. The answer is 12
+Q: How many gnomes does the fifth house have? 
+A: Therefore, the fifth house had 20 total gnomes - 12 gnomes = <<20-12=8>>8 gnomes. The answer is 8
+
+Problem: Noah is a painter. He paints pictures and sells them at the park. He charges $60 for a large painting and $30 for a small painting. Last month he sold eight large paintings and four small paintings. If he sold twice as much this month, how much is his sales for this month?
+Q: How much did Noah earn from the large paintings?
+A: Noah earned $60/large painting x 8 large paintings = $<<60*8=480>>480 for the large paintings. The answer is 480
+Q: How much did Noah earn from the small paintings?
+A: He also earned $30/small painting x 4 small paintings = $<<30*4=120>>120 for the small paintings. The answer is 120
+Q: How much did Noah earn last month?
+A: His total sales last month were $480 + $120 = $<<480+120=600>>600. The answer is 600
+Q: How much will Noah sell this month?
+A: So, his sales this month are $600 x 2 = $<<600*2=1200>>1200. The answer is 1200
+
+Problem: A Statistics student wants to find out the average daily allowance of the middle school students. According to his survey, 2/3 of the students receive an average of $6 allowance per day while the rest gets an average of $4 a day. If he surveyed 60 students, what is the total amount of money those 60 students get in a day?
+Q: How many students get an average of $6?
+A: There are 60 students x 2/3 = <<60*2/3=40>>40 students who have a $6 daily allowance. The answer is 40
+Q: How many students get an average of $4? 
+A: While there are 60 students - 40 students = <<60-40=20>>20 students who have a $4 daily allowance. The answer is 20
+Q: How much money do the 40 students who received $6 get in a day?
+A: The sum of the allowances of the 40 students who received $6 daily is 40 students x $6/day = $<<40*6=240>>240. The answer is 240
+Q: How much money do the 20 students who received $4 get in a day?
+A: The sum of the allowances of the 20 students who received $4 daily is 20 students x $4/day = $<<20*4=80>>80. The answer is 80
+Q: What is the total amount of money those 60 students get in a day
+A: The total daily amount of money of those 60 students is $240 + $80 = $<<240+80=320>>320. The answer is 320
