@@ -1,6 +1,6 @@
 # SCREWS: A Modular Framework for Reasoning with Revisions
 
-**SCREWS** is a modular reasoning-with-revisions framework to answer reasoning questions with LLMs. More details in the [paper]().
+**SCREWS** is a modular reasoning-with-revisions framework to answer reasoning questions with LLMs. More details in the [paper](https://arxiv.org/abs/2309.13075).
 
 ![SCREWS](./Images/Screws.png)
 
