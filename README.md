@@ -9,7 +9,7 @@
 
 * Clone the repo
 ```sh
-git clone 
+git clone https://github.com/kumar-shridhar/Screws.git
 ```
 
 * Install OpenAI, make an OpenAI account and keep the OpenAI key ready
